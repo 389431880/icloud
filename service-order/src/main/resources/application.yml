@@ -1,0 +1,25 @@
+server:
+  port: 8083
+
+spring:
+  profiles:
+    active: core-prd, order
+  application:
+    name: service-order
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8081/eureka/
+
+ribbon:
+  eureka:
+    enabled: true
+
+#lcn分布式事务
+tx-lcn:
+  client:
+    manager-address: 192.168.0.115:8070
+  springcloud:
+    loadbalance:
+      enabled: true

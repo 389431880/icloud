@@ -1,0 +1,18 @@
+spring:
+  profiles:
+    active: core-test
+  message:
+    encoding: UTF-8
+  #  cache:
+  #    cache-names: foo,bar
+  #    caffeine:
+  #      spec: maximumSize=500,expireAfterAccess=7200s
+  resources:
+    static-locations: classpath:/META-INF/resources
+
+logging:
+  level:
+    root:  ERROR
+    org.springframework:  ERROR
+    org.mybatis:  ERROR
+    com.dhgh.idrive.core:  INFO
