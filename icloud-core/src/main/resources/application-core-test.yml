@@ -6,7 +6,7 @@ weixin:
     app_id: 111111111111
     app_secret: 1111111111111
     #微信支付回调地址
-    order_notify_url: https://xcx.mskjzg.com/eh/wx/subscription/wxpay/orderPayCallBack
+    order_notify_url: orderPayCallBack
     enterprice_url:
     refund_url:
   #学员端
@@ -14,7 +14,7 @@ weixin:
     app_id: stu123
     app_secret: 22222222222222
     #微信支付回调地址
-    order_notify_url: https://xcx.mskjzg.com/eh/wx/subscription/wxpay/orderPayCallBack
+    order_notify_url: orderPayCallBack
     enterprice_url:
     refund_url:
   #教练端
@@ -34,7 +34,7 @@ sms:
   connTimeOut: 30000
   readTimeOut: 30000
   userAgent: "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/29.0.1547.66 Safari/537.36"
-  appKey: e136fd393234424ee5c589fd2a164ff7
+  appKey: 13213245
   overTime: 5
   tplId:
     register: 180142
